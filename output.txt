@@ -1,0 +1,624 @@
+
+
+
+5 Best Stocks to Buy Now in September
+
+
+By Eric Cuka
+–
+Sep 1, 2022 at 5:29PM
+
+
+You’re reading a free article with opinions that may differ from The Motley Fool’s Premium Investing Services. Become a Motley Fool member today to get instant access to our top analyst recommendations, in-depth research, investing resources, and more. Learn More
+
+
+
+
+
+
+
+NYSE: PLTR
+
+Palantir Technologies
+
+
+
+
+
+
+
+Market Cap
+$30B
+
+
+
+
+Today's Change
+
+
+
+Arrow-Thin-Down
+
+
+
+(1.70%) $0.24
+
+
+
+Current Price
+$14.38
+
+
+Price as of August 25, 2023, 1:45 p.m. ET
+
+
+
+
+
+
+ 
+
+
+            googletag.cmd.push(function() {
+                googletag.display('div-leaderboard-88589');
+            });
+        
+
+
+
+
+These beaten-down growth stocks have significant upside.
+
+September is here, and I have 5 stocks for you to explore. In the video below, I provide stock analysis on the 5 best stock picks that I believe have significant upside for long-term investors, from hypergrowth to growth at a reasonable price. These are the 5 best stocks to buy now and lower in September.
+One of my favorite stocks on the list is Palantir (PLTR 1.70%), which is a big data analytics software company helping government agencies and corporations manage and analyze data. Please watch this video for four additional stock picks, stock analysis, and potential price entries. 
+*Stock prices used in the below video were during the trading day of September 1, 2022. The video was published on September 1, 2022.
+
+
+
+
+Suzanne Frey, an executive at Alphabet, is a member of The Motley Fool's board of directors. Eric Cuka has positions in Advanced Micro Devices, Alphabet (A shares), Palantir Technologies Inc., Salesforce, Inc., and Tesla. The Motley Fool has positions in and recommends Advanced Micro Devices, Alphabet (A shares), Alphabet (C shares), Palantir Technologies Inc., Salesforce, Inc., and Tesla. The Motley Fool has a disclosure policy. Eric is an affiliate of The Motley Fool and may be compensated for promoting its services. If you choose to subscribe through his link, he will earn some extra money that supports his channel. His opinions remain his own and are unaffected by The Motley Fool.
+
+
+
+
+
+
+
+
+
+
+
+
+Invest Smarter with The Motley Fool
+
+
+Join Over Half a Million Premium Members Receiving…
+
+
+
+
+
+
+
+
+New Stock Picks Each Month
+Detailed Analysis of Companies
+Model Portfolios
+Live Streaming During Market Hours
+And Much More
+
+Get Started Now
+
+
+
+Related Articles
+
+
+
+2 Top Tech Stocks Under $20 Per Share
+
+
+
+This Could Give Palantir's Stock a Big Boost This Year
+
+
+
+3 Smart Reasons to Buy Palantir Stock Right Now
+
+
+
+Best Stocks to Buy: Palantir Stock vs. Fiverr Stock
+
+
+
+Palantir Technologies Stock: Bull vs. Bear
+
+
+497%
+
+
+Motley Fool Returns
+
+
+Market-beating stocks from our award-winning analyst team.
+
+
+Stock Advisor Returns
+497%
+
+ 
+
+S&P 500 Returns
+129%
+
+
+
+Calculated by average return of all stock recommendations since inception of the Stock Advisor service in February of 2002. Returns as of 08/24/2023.
+Discounted offers are only available to new members. Stock Advisor list price is $199 per year.
+
+
+
+
+Join Stock Advisor
+
+
+
+
+Cumulative Growth of a $10,000 Investment in Stock Advisor
+Calculated by Time-Weighted Return since 2002. Volatility profiles based on trailing-three-year calculations of the standard deviation of service investment returns.
+
+
+
+
+
+
+
+
+ 
+
+
+            googletag.cmd.push(function() {
+                googletag.display('div-sidebar2_desk-27030');
+            });
+        
+
+
+
+
+ 
+
+
+            googletag.cmd.push(function() {
+                googletag.display('div-sidebar_button1-79394');
+            });
+        
+
+
+
+
+
+          (function () {
+            // Move sidebar modules into body content on mobile viewports.
+            //
+            // Using JS instead of hiding/showing via CSS media queries to avoid
+            // duplicating pitch placements which would cause reporting issues.
+
+            const content_div = document.querySelector("div.tailwind-article-body");
+            const fifth_paragraph = content_div.querySelector("p:nth-of-type(5)");
+            const seventh_paragraph = content_div.querySelector("p:nth-of-type(7)");
+
+            const mobilize_sidebar_modules = () => {
+
+              if (fifth_paragraph) {
+                const sidebar_service_pitch = document.querySelector(
+                  "div[data-pitch-placement='foolcom_sidebar_service']"
+                );
+                if (sidebar_service_pitch) {
+                  const homeless_sidebar_service_pitch = sidebar_service_pitch
+                    .parentNode.removeChild(sidebar_service_pitch);
+                  content_div.insertBefore(homeless_sidebar_service_pitch, fifth_paragraph.nextSibling);
+                }
+              }
+
+              if (seventh_paragraph) {
+                const sidebar_top_pitch = document.querySelector(
+                  "div[data-pitch-placement='foolcom_sidebar_top']"
+                );
+                if (sidebar_top_pitch) {
+                  const homeless_sidebar_top_pitch = sidebar_top_pitch
+                    .parentNode.removeChild(sidebar_top_pitch);
+                  content_div.insertBefore(homeless_sidebar_top_pitch, seventh_paragraph.nextSibling);
+                }
+              }
+            }
+
+            const desktopify_sidebar_modules = () => {
+              if (fifth_paragraph) {
+                const sidebar_service_pitch = document.querySelector(
+                  "div[data-pitch-placement='foolcom_sidebar_service']"
+                );
+                if (sidebar_service_pitch) {
+                  const homeless_sidebar_service_pitch = sidebar_service_pitch
+                    .parentNode.removeChild(sidebar_service_pitch);
+                  document
+                    .getElementById("sidebar-service-pitch-wrapper")
+                    .appendChild(homeless_sidebar_service_pitch);
+                }
+              }
+
+              if (seventh_paragraph) {
+                const sidebar_top_pitch = document.querySelector(
+                  "div[data-pitch-placement='foolcom_sidebar_top']"
+                );
+                if (sidebar_top_pitch) {
+                  const homeless_sidebar_top_pitch = sidebar_top_pitch
+                    .parentNode.removeChild(sidebar_top_pitch);
+                  document
+                    .getElementById("sidebar-top-pitch-wrapper")
+                    .appendChild(homeless_sidebar_top_pitch);
+                }
+              }
+            };
+
+            const toggle_sidebar_modules = (is_mobile) => {
+              if (is_mobile) {
+                mobilize_sidebar_modules();
+              } else {
+                desktopify_sidebar_modules();
+              }
+            };
+
+            const mobile_query = window.matchMedia("(max-width: 640px)");
+            if (mobile_query.matches) {
+              mobilize_sidebar_modules();
+            }
+            mobile_query.addEventListener("change", (e) => {
+              toggle_sidebar_modules(e.matches);
+            });
+
+          })();
+        
+
+
+Our Most Popular Articles
+
+
+
+
+
+
+Only 7 Weeks Until Next Year's Social Security Increase Is Announced. Here's How Big a Raise You Can Expect.
+
+
+
+
+
+Warren Buffett Will Collect $4.31 Billion in Annual-Dividend Income From These 5 Stocks
+
+
+
+
+
+Want to Get Richer? 2 Top Stocks to Buy Now and Hold Forever
+
+
+
+
+
+1 Artificial Intelligence (AI) Stock to Buy Hand Over Fist Before It Soars Like Nvidia
+
+
+
+
+
+
+
+5 Best Stocks to Buy Now in September
+
+
+By Eric Cuka
+–
+Sep 1, 2022 at 5:29PM
+
+
+You’re reading a free article with opinions that may differ from The Motley Fool’s Premium Investing Services. Become a Motley Fool member today to get instant access to our top analyst recommendations, in-depth research, investing resources, and more. Learn More
+
+
+
+
+
+
+
+NYSE: PLTR
+
+Palantir Technologies
+
+
+
+
+
+
+
+Market Cap
+$30B
+
+
+
+
+Today's Change
+
+
+
+Arrow-Thin-Down
+
+
+
+(1.70%) $0.24
+
+
+
+Current Price
+$14.38
+
+
+Price as of August 25, 2023, 1:45 p.m. ET
+
+
+
+
+
+
+ 
+
+
+            googletag.cmd.push(function() {
+                googletag.display('div-leaderboard-88589');
+            });
+        
+
+
+
+
+These beaten-down growth stocks have significant upside.
+
+September is here, and I have 5 stocks for you to explore. In the video below, I provide stock analysis on the 5 best stock picks that I believe have significant upside for long-term investors, from hypergrowth to growth at a reasonable price. These are the 5 best stocks to buy now and lower in September.
+One of my favorite stocks on the list is Palantir (PLTR 1.70%), which is a big data analytics software company helping government agencies and corporations manage and analyze data. Please watch this video for four additional stock picks, stock analysis, and potential price entries. 
+*Stock prices used in the below video were during the trading day of September 1, 2022. The video was published on September 1, 2022.
+
+
+
+
+Suzanne Frey, an executive at Alphabet, is a member of The Motley Fool's board of directors. Eric Cuka has positions in Advanced Micro Devices, Alphabet (A shares), Palantir Technologies Inc., Salesforce, Inc., and Tesla. The Motley Fool has positions in and recommends Advanced Micro Devices, Alphabet (A shares), Alphabet (C shares), Palantir Technologies Inc., Salesforce, Inc., and Tesla. The Motley Fool has a disclosure policy. Eric is an affiliate of The Motley Fool and may be compensated for promoting its services. If you choose to subscribe through his link, he will earn some extra money that supports his channel. His opinions remain his own and are unaffected by The Motley Fool.
+
+
+
+
+
+
+
+
+
+
+
+
+Invest Smarter with The Motley Fool
+
+
+Join Over Half a Million Premium Members Receiving…
+
+
+
+
+
+
+
+
+New Stock Picks Each Month
+Detailed Analysis of Companies
+Model Portfolios
+Live Streaming During Market Hours
+And Much More
+
+Get Started Now
+
+
+
+Related Articles
+
+
+
+2 Top Tech Stocks Under $20 Per Share
+
+
+
+This Could Give Palantir's Stock a Big Boost This Year
+
+
+
+3 Smart Reasons to Buy Palantir Stock Right Now
+
+
+
+Best Stocks to Buy: Palantir Stock vs. Fiverr Stock
+
+
+
+Palantir Technologies Stock: Bull vs. Bear
+
+
+497%
+
+
+Motley Fool Returns
+
+
+Market-beating stocks from our award-winning analyst team.
+
+
+Stock Advisor Returns
+497%
+
+ 
+
+S&P 500 Returns
+129%
+
+
+
+Calculated by average return of all stock recommendations since inception of the Stock Advisor service in February of 2002. Returns as of 08/24/2023.
+Discounted offers are only available to new members. Stock Advisor list price is $199 per year.
+
+
+
+
+Join Stock Advisor
+
+
+
+
+Cumulative Growth of a $10,000 Investment in Stock Advisor
+Calculated by Time-Weighted Return since 2002. Volatility profiles based on trailing-three-year calculations of the standard deviation of service investment returns.
+
+
+
+
+
+
+
+
+ 
+
+
+            googletag.cmd.push(function() {
+                googletag.display('div-sidebar2_desk-27030');
+            });
+        
+
+
+
+
+ 
+
+
+            googletag.cmd.push(function() {
+                googletag.display('div-sidebar_button1-79394');
+            });
+        
+
+
+
+
+
+          (function () {
+            // Move sidebar modules into body content on mobile viewports.
+            //
+            // Using JS instead of hiding/showing via CSS media queries to avoid
+            // duplicating pitch placements which would cause reporting issues.
+
+            const content_div = document.querySelector("div.tailwind-article-body");
+            const fifth_paragraph = content_div.querySelector("p:nth-of-type(5)");
+            const seventh_paragraph = content_div.querySelector("p:nth-of-type(7)");
+
+            const mobilize_sidebar_modules = () => {
+
+              if (fifth_paragraph) {
+                const sidebar_service_pitch = document.querySelector(
+                  "div[data-pitch-placement='foolcom_sidebar_service']"
+                );
+                if (sidebar_service_pitch) {
+                  const homeless_sidebar_service_pitch = sidebar_service_pitch
+                    .parentNode.removeChild(sidebar_service_pitch);
+                  content_div.insertBefore(homeless_sidebar_service_pitch, fifth_paragraph.nextSibling);
+                }
+              }
+
+              if (seventh_paragraph) {
+                const sidebar_top_pitch = document.querySelector(
+                  "div[data-pitch-placement='foolcom_sidebar_top']"
+                );
+                if (sidebar_top_pitch) {
+                  const homeless_sidebar_top_pitch = sidebar_top_pitch
+                    .parentNode.removeChild(sidebar_top_pitch);
+                  content_div.insertBefore(homeless_sidebar_top_pitch, seventh_paragraph.nextSibling);
+                }
+              }
+            }
+
+            const desktopify_sidebar_modules = () => {
+              if (fifth_paragraph) {
+                const sidebar_service_pitch = document.querySelector(
+                  "div[data-pitch-placement='foolcom_sidebar_service']"
+                );
+                if (sidebar_service_pitch) {
+                  const homeless_sidebar_service_pitch = sidebar_service_pitch
+                    .parentNode.removeChild(sidebar_service_pitch);
+                  document
+                    .getElementById("sidebar-service-pitch-wrapper")
+                    .appendChild(homeless_sidebar_service_pitch);
+                }
+              }
+
+              if (seventh_paragraph) {
+                const sidebar_top_pitch = document.querySelector(
+                  "div[data-pitch-placement='foolcom_sidebar_top']"
+                );
+                if (sidebar_top_pitch) {
+                  const homeless_sidebar_top_pitch = sidebar_top_pitch
+                    .parentNode.removeChild(sidebar_top_pitch);
+                  document
+                    .getElementById("sidebar-top-pitch-wrapper")
+                    .appendChild(homeless_sidebar_top_pitch);
+                }
+              }
+            };
+
+            const toggle_sidebar_modules = (is_mobile) => {
+              if (is_mobile) {
+                mobilize_sidebar_modules();
+              } else {
+                desktopify_sidebar_modules();
+              }
+            };
+
+            const mobile_query = window.matchMedia("(max-width: 640px)");
+            if (mobile_query.matches) {
+              mobilize_sidebar_modules();
+            }
+            mobile_query.addEventListener("change", (e) => {
+              toggle_sidebar_modules(e.matches);
+            });
+
+          })();
+        
+
+
+Our Most Popular Articles
+
+
+
+
+
+
+Only 7 Weeks Until Next Year's Social Security Increase Is Announced. Here's How Big a Raise You Can Expect.
+
+
+
+
+
+Warren Buffett Will Collect $4.31 Billion in Annual-Dividend Income From These 5 Stocks
+
+
+
+
+
+Want to Get Richer? 2 Top Stocks to Buy Now and Hold Forever
+
+
+
+
+
+1 Artificial Intelligence (AI) Stock to Buy Hand Over Fist Before It Soars Like Nvidia
+
+
+
+

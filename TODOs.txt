@@ -1,0 +1,3 @@
+todo add function docustrings
+todo logging + multiprocessing needs to work via handler
+todo add proper testing

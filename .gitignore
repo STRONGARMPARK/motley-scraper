@@ -1,0 +1,5 @@
+/.env
+/tests/
+/venv/
+/.idea/
+/.ipynb_checkpoints/
