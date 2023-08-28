@@ -8,8 +8,8 @@ log = logging.getLogger(__name__)
 
 # extract the links
 @handle_many_elements(error_on_empty=False)
-def get_call_urls(html_selector):
-    call_urls = html_selector.xpath('.//div[@class = "page" and @data-pagenum = "1"]'
+def get_call_urls(html_selector, page_num=1):
+    call_urls = html_selector.xpath(f'.//div[@class = "page" and @data-pagenum = "{page_num}"]'
                                     '//div[@class="flex py-12px text-gray-1100"]/a/@href')
     return call_urls
 

@@ -23,8 +23,8 @@ aws_session = boto3.Session(aws_access_key_id=Aws.AWS_KEY,
 # ---------------------------------------------------------------------------
 # SCRAPE LINKS OF OF A GIVEN PAGE
 # ---------------------------------------------------------------------------
-def request_html_w_urls(page_num):
-    request = dict(url=FoolCalls.INVESTING_NEWS_LINKS_ROOT,
+def request_html_w_urls(page_num, url):
+    request = dict(url=url,
                    params={'page': page_num},
                    headers={'User-Agent': random.choice(FoolCalls.USER_AGENT_LIST)})
 
@@ -35,17 +35,27 @@ def request_html_w_urls(page_num):
     return response
 
 
-def scrape_transcript_urls(html_text):
+def scrape_transcript_urls(html_text, page_num=1):
     html_selector = html.fromstring(html_text)
-    call_urls = extractors.get_call_urls(html_selector)
+    call_urls = extractors.get_call_urls(html_selector, page_num)
     return call_urls
 
 
 def scrape_transcript_urls_by_page(page_num):
-    response = request_html_w_urls(page_num)
+    response = request_html_w_urls(page_num, FoolCalls.INVESTING_NEWS_LINKS_ROOT)
     call_urls_ext = scrape_transcript_urls(response.text)
     call_urls = [f'{FoolCalls.ROOT}{call_url_ext}' for call_url_ext in call_urls_ext]
     return call_urls
+
+def scrape_author_article_urls_by_page(page_num, author_num):
+    try:
+        response = request_html_w_urls(page_num, FoolCalls.AUTHOR_ARTICLE_LINKS_ROOT + "/" + str(author_num) + "/")
+        call_urls_ext = scrape_transcript_urls(response.text, page_num)
+        call_urls = [f'{FoolCalls.ROOT}{call_url_ext}' for call_url_ext in call_urls_ext]
+        return call_urls
+    except Exception as e:
+        print("Error: ", e)
+        return []
 
 
 # ---------------------------------------------------------------------------

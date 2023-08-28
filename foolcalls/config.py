@@ -35,6 +35,7 @@ class FoolCalls:
     # EARNINGS_LINKS_ROOT = f'{ROOT}/earnings-call-transcripts'
     INVESTING_NEWS_LINKS_ROOT = f'{ROOT}/investing-news'
     EARNINGS_TRANSCRIPTS_ROOT = f'{ROOT}/earnings/call-transcripts'
+    AUTHOR_ARTICLE_LINKS_ROOT = f'{ROOT}/author/'
 
     # LINK COLLECTION PARAMETERS
     START_PAGE = 1 # useful for debugging specific page
