@@ -28,7 +28,7 @@ existing_authors = load_existing_authors()
 print(existing_authors)
 
 # iterate through all 4 digit numbers
-for i in range(20251, 100000):
+for i in range(1, 100000):
     print("*"*100)
     zeros = 5 - len(str(i))
     author = "0" * zeros + str(i) 
