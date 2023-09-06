@@ -28,6 +28,8 @@ def findall(parent_element, xpath_str, concat_results=False):
 # returns unix timestamp
 def extract_date(date_str):
     # Assuming date is a string containing the date
+    print("this is the date_str:")
+    print(date_str)
     match = re.search(r'([A-Z][a-z]{2,3}) ([0-9]{1,2}), ([0-9]{4}) at ([0-9]{1,2}:[0-9]{1,2}[A-Z]*)', date_str)
 
     # Extract the date components from the match
@@ -61,16 +63,24 @@ def extract_body(body_lst, author):
 
 
 def extract_author(date_str):
+    date_str = date_str.replace('\n', ' ')
+    print(date_str)
     match = re.search(r'.*By ([A-Z][a-z]* [A-Z][a-z]*).*', date_str) 
     author = match.group(1)
+    print(author)
     return author
 
    
 def extract_elements(html_text):
     html_doc = html.fromstring(html_text)
 
-    article_header = find(parent_element=html_doc,
+    try:
+        article_header = find(parent_element=html_doc,
                           xpath_str='.//h1[contains(@class, "font-medium") and contains(@class, "text-gray-1100")]').text_content()
+    except:
+        article_header = find(parent_element=html_doc,
+                          xpath_str='.//h1[contains(@class, "text-h2") and contains(@class, "text-gray-1000")]').text_content()
+        print("idk boss")
 
     #TODO get multiple tickers
     try:
@@ -82,7 +92,12 @@ def extract_elements(html_text):
     date = find(parent_element=html_doc,
                 xpath_str='.//div[contains(@class, "text-lg") and contains(@class, "font-medium") and contains(@class, "text-gray-800")]').text_content()
 
+    print(date)
+    if date == None:
+        print("no beast")
+
     author = extract_author(date)
+    print(author)
 
     date = extract_date(date)
     

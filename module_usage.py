@@ -18,22 +18,24 @@ import csv
 # urls = scrape_author_article_urls_by_page(2, 20250)
 # print(urls)
 
-urls = []
-
-with open('first100.csv', 'r') as readData:
-    readCsv = csv.reader(readData)
-    data = list(readCsv)
-    for d in data:
-        urls.append(d[1])
-print(urls)
-
-# for i in range(20250, 20260):
-#     urls = scrape_author_article_urls_by_page(1, i)
-#     print(urls)
-#     print("*"*100)
-#     time.sleep(5) # sleep 5 seconds between reqeusts
+#urls = []
+#
+#with open('first100.csv', 'r') as readData:
+#    readCsv = csv.reader(readData)
+#    data = list(readCsv)
+#    for d in data:
+#        urls.append(d[1])
+#print(urls)
+#
+## for i in range(20250, 20260):
+##     urls = scrape_author_article_urls_by_page(1, i)
+##     print(urls)
+##     print("*"*100)
+##     time.sleep(5) # sleep 5 seconds between reqeusts
 
 failures = 0
+
+urls = ["https://www.fool.com/investing/10-biggest-consumer-discretionary-stocks.aspx"]
 
 for url in urls:
     try:
