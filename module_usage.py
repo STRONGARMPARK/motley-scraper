@@ -18,14 +18,13 @@ import csv
 # urls = scrape_author_article_urls_by_page(2, 20250)
 # print(urls)
 
-#urls = []
-#
-#with open('first100.csv', 'r') as readData:
-#    readCsv = csv.reader(readData)
-#    data = list(readCsv)
-#    for d in data:
-#        urls.append(d[1])
-#print(urls)
+urls = []
+
+with open('outputaa', 'r') as readData:
+    readCsv = csv.reader(readData)
+    data = list(readCsv)
+    for d in data:
+        urls.append(d[0])
 #
 ## for i in range(20250, 20260):
 ##     urls = scrape_author_article_urls_by_page(1, i)
@@ -33,21 +32,37 @@ import csv
 ##     print("*"*100)
 ##     time.sleep(5) # sleep 5 seconds between reqeusts
 
+num_before_write = 0
+articles = []
+data_csv = []
 failures = 0
-
-urls = ["https://www.fool.com/investing/10-biggest-consumer-discretionary-stocks.aspx"]
-
 for url in urls:
     try:
         response = requests.get(url)
     except:
-        print("Yo beast I failed")
         failures += 1
         continue
     data = scrape_transcript(response.text)
-    pprint.pprint(data)
-    time.sleep(5) # sleep 5 seconds between reqeusts
-print("Yo beast I failed " + str(failures) + " times")
+    data['url'] = url
+    data_csv.append(data)
+    print(num_before_write)
+    if num_before_write == 10:
+        # write now
+        with open('articles1.csv', 'a', newline='') as csvfile:
+            # create a CSV writer object
+            writer = csv.writer(csvfile)
+            # write the column headers to the CSV file
+            # iterate through each URL in the list
+            for row in data_csv:
+                # send a request to the URL and extract the data
+                # write the data to the CSV file
+                row = [row['url'], row['article_header'], row['date'], row['ticker'], row['article_body']]
+                writer.writerow(row)
+            num_before_write = 0
+            data_csv = []
+    else:
+        num_before_write+=1
+    time.sleep(2) # sleep 5 seconds between reqeusts
 
 
 # # combine the two above to get a handful of transcripts from fool.com
