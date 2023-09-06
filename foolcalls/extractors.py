@@ -73,8 +73,11 @@ def extract_elements(html_text):
                           xpath_str='.//h1[contains(@class, "font-medium") and contains(@class, "text-gray-1100")]').text_content()
 
     #TODO get multiple tickers
-    ticker = find(parent_element=html_doc,
+    try:
+        ticker = find(parent_element=html_doc,
                   xpath_str='.//a[contains(@class, "text-cyan-800") and contains(@class, "hover:text-cyan-700")]').text_content()
+    except:
+        ticker = "NONE"
 
     date = find(parent_element=html_doc,
                 xpath_str='.//div[contains(@class, "text-lg") and contains(@class, "font-medium") and contains(@class, "text-gray-800")]').text_content()
